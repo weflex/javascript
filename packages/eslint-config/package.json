@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-airbnb",
-  "version": "0.0.8",
-  "description": "Airbnb's ESLint config, following our styleguide",
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "WeFlex's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint .",
@@ -9,22 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airbnb/javascript"
+    "url": "https://github.com/weflex/javascript"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
     "config",
-    "airbnb",
+    "weflex",
     "javascript",
     "styleguide"
   ],
   "author": "Jake Teton-Landis (https://twitter.com/@jitl)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airbnb/javascript/issues"
+    "url": "https://github.com/weflex/javascript/issues"
   },
-  "homepage": "https://github.com/airbnb/javascript",
+  "homepage": "https://github.com/weflex/javascript",
   "devDependencies": {
     "babel-eslint": "4.0.10",
     "babel-tape-runner": "1.2.0",

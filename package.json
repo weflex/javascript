@@ -1,14 +1,13 @@
 {
-  "name": "airbnb-style",
-  "version": "2.0.0",
+  "name": "weflex-style",
+  "version": "1.0.0",
   "description": "A mostly reasonable approach to JavaScript.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish-all": "npm publish && cd ./packages/eslint-config-airbnb && npm publish"
+    "publish-all": "npm publish && cd ./packages/eslint-config && npm publish"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airbnb/javascript.git"
+    "url": "https://github.com/weflex/javascript.git"
   },
   "keywords": [
     "style guide",
@@ -20,6 +19,9 @@
     "jsx"
   ],
   "author": "Harrison Shoff <hi@hshoff.com> (https://twitter.com/hshoff)",
+  "contributors": [
+    "Yorkie Liu <yorkiefixer@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/airbnb/javascript/issues"
