@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "weflex-eslint-config",
   "version": "1.0.0",
   "description": "WeFlex's ESLint config, following our styleguide",
   "main": "index.js",
