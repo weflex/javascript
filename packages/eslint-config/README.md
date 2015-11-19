@@ -4,15 +4,17 @@ This package provides .eslintrc as an extensible shared config.
 
 ## Usage
 
-### With React Style
+```sh
+$ npm install --save-dev eslint-config-weflex babel-eslint eslint-plugin-react
+```
 
-1. `npm install --save-dev eslint-config babel-eslint eslint-plugin-react`
-2. add `"extends": "weflex"` to your .eslintrc
+Add the below to your project `.eslintrc`:
 
-### Without React Style
-
-1. `npm install --save-dev eslint-config babel-eslint `
-2. add `"extends": "weflex/base"` to your .eslintrc
+```
+{
+  "extends": "weflex"
+}
+```
 
 See [WeFlex's Javascript styleguide](https://github.com/weflex/javascript) and
 the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
