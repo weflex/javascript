@@ -2,7 +2,8 @@ module.exports = {
   'parser': 'babel-eslint',          // https://github.com/babel/babel-eslint
   'env': {                           // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
     'browser': true,                 // browser global variables
-    'node': true                     // Node.js global variables and Node.js-specific rules
+    'node': true,                    // Node.js global variables and Node.js-specific rules
+    'es6': true
   },
   'ecmaFeatures': {
     'arrowFunctions': true,
@@ -27,7 +28,7 @@ module.exports = {
      * Strict mode
      */
     // babel inserts 'use strict'; for us
-    'strict': [2, 'never'],          // http://eslint.org/docs/rules/strict
+    'strict': [2, 'safe'],            // http://eslint.org/docs/rules/strict
 
     /**
      * ES6
